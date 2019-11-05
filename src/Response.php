@@ -39,7 +39,7 @@ class Response
 
 	public function __call($method, $params)
 	{
-		return call_user_method_array($method, $this->reponse, $params);
+		return \call_user_func_array([$this->response, $method], $params);
 	}
 
 	public function __get($key)
