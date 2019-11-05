@@ -6,8 +6,10 @@
             "email": "hello@thatsup.se"
         }
     ],
-    "psr-4": {
-        "Thatsup\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "Thatsup\\": "src/"
+        }
     },
     "require": {
         "guzzlehttp/guzzle": "^6.3",
