@@ -16,6 +16,6 @@ Install the library using Composer. Please read the [Composer Documentation](htt
 Create a Thatsup instance and get place by id.
 
 ```php
-$thatsup = new Thatsup($apiKey);
+$thatsup = new Thatsup\Thatsup($apiKey);
 $place = $thatsup->get('/place', [ 'id' => $placeId ])->data();
 ```
